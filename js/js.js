@@ -5,6 +5,3 @@ const paragraph = document.createElement("p");
 const text = document.createTextNode("Hola, mundo!");
 paragraph.appendChild(text);
 
-// Agrega el párrafo al documento
-const container = document.getElementById("container");
-container.appendChild(paragraph);
